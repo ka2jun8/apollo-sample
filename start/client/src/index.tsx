@@ -1,4 +1,3 @@
-import gql from "graphql-tag"
 import { ApolloProvider, ApolloClient, InMemoryCache, HttpLink} from '@apollo/client';
 import React from "react"
 import ReactDOM from "react-dom"
@@ -13,20 +12,6 @@ const client = new ApolloClient({
   cache,
   link,
 });
-
-client.query({
-  query: gql`
-    query GetLaunch {
-      launch(id: 56) {
-        id
-        mission {
-          name
-        }
-      }
-    }
-  `
-})
-.then(result => console.log(result))
 
 ReactDOM.render(
   <ApolloProvider client={client}>
