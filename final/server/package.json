@@ -23,7 +23,7 @@
     "nodemon": "^1.19.4",
     "sequelize": "^6.0.0",
     "sqlite3": "^5.0.0",
-    "uuid": "^3.3.3"
+    "uuid": "^8.0.0"
   },
   "devDependencies": {
     "apollo": "2.30.1",
