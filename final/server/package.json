@@ -29,7 +29,7 @@
     "apollo": "2.30.1",
     "apollo-link": "1.2.14",
     "apollo-link-http": "1.5.17",
-    "jest": "25.5.4",
+    "jest": "26.2.2",
     "nock": "13.0.3",
     "node-fetch": "2.6.0",
     "now": "12.1.14"
