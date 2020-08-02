@@ -25,7 +25,7 @@
   "devDependencies": {
     "apollo-link": "1.2.14",
     "apollo-link-http": "1.5.17",
-    "jest": "23.6.0",
+    "jest": "26.2.2",
     "nock": "13.0.3",
     "node-fetch": "2.6.0"
   },
