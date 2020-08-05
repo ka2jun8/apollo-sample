@@ -25,19 +25,11 @@ const GET_LAUNCHES = gql`
       cursor
       hasMore
       launches {
-        id
-        isBooked
-        rocket {
-          id
-          name
-        }
-        mission {
-          name
-          missionPatch
-        }
+        ...LaunchTile
       }
     }
   }
+  ${LAUNCH_TILE_DATA}
 `
 
 interface LaunchesProps extends RouteComponentProps {}
