@@ -37,7 +37,7 @@
   ],
   "devDependencies": {
     "@testing-library/jest-dom": "5.11.2",
-    "@testing-library/react": "10.4.8",
+    "@testing-library/react": "11.2.7",
     "@types/jest": "26.0.9",
     "apollo": "2.30.2",
     "artillery": "1.6.1",
